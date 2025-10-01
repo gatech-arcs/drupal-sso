@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "drupal/cas": "^3.0",
+        "drupal/cas": "^3.0@beta",
+        "drupal/cas_attributes": "^3.0@beta",
         "drupal/externalauth": "^2.0"
     }
 }

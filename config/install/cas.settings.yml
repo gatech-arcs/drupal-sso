@@ -1,6 +1,6 @@
 langcode: en
 login_link_enabled: false
-login_link_label: 'CAS Login'
+login_link_label: 'GT SSO Login'
 login_success_message: ''
 server:
   version: '3.0'
@@ -29,7 +29,7 @@ user_accounts:
   auto_register: false
   auto_register_follow_registration_policy: false
   email_assignment_strategy: 0
-  email_hostname: ''
+  email_hostname: 'gatech.edu'
   email_attribute: ''
   auto_assigned_roles: {  }
   restrict_password_management: true
@@ -42,8 +42,8 @@ error_handling:
   message_subscriber_denied_login: 'You do not have access to log in to this website. Please contact a site administrator if you believe you should have access.'
   message_account_blocked: 'Your account is blocked or has not been activated. Please contact a site administrator.'
   message_username_already_exists: 'An account on this website with your username already exists. Please contact a site administrator.'
-  message_prevent_normal_login: 'This account must log in using <a href="[cas:login-url]">CAS</a>.'
-  message_restrict_password_management: 'The requested account is associated with CAS and its password cannot be managed from this website.'
+  message_prevent_normal_login: 'This account must log in using <a href="[cas:login-url]">GT SSO</a>.'
+  message_restrict_password_management: 'The requested account is associated with GT SSO and its password cannot be managed from this website.'
 logout:
   cas_logout: false
   logout_destination: ''

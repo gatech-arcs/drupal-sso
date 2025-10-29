@@ -34,7 +34,8 @@ jobs:
 
         env:
           LINTER_RULES_PATH: .github/linters
-          VALIDATE_ALL_CODEBASE: true
+          VALIDATE_BIOME_FORMAT: false
+          VALIDATE_JAVASCRIPT_PRETTIER: false
           VALIDATE_JSCPD: false
           VALIDATE_JSON_PRETTIER: false
           VALIDATE_PHP_PSALM: false

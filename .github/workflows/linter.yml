@@ -36,7 +36,6 @@ jobs:
           LINTER_RULES_PATH: .github/linters
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_JSCPD: false
-          VALIDATE_JSON: true
           VALIDATE_JSON_PRETTIER: false
           VALIDATE_PHP_PSALM: false
           VALIDATE_PHP_PHPCS: false

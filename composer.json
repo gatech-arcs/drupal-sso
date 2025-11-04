@@ -1,5 +1,5 @@
 {
-    "name": "gtsciences/gt-sso",
+    "name": "gtsciences/gt_sso",
     "description": "Drupal recipe for Single Sign On with Georgia Tech's CAS v6.",
     "type": "drupal-recipe",
     "keywords": ["drupal recipe", "drupal recipes", "recipe", "CAS", "authentication"],
@@ -11,7 +11,8 @@
             "role": "Maintainer"
         },
         {
-            "name": "Georgia Tech College of Sciences",
+            "name": "College of Sciences, Georgia Tech",
+            "email": "web@cos.gatech.edu",
             "role": "Maintainer"
         }
     ],

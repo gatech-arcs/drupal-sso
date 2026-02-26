@@ -1,5 +1,5 @@
 langcode: en
-login_link_enabled: false
+login_link_enabled: true
 login_link_label: 'GT SSO Login'
 login_success_message: ''
 server:
@@ -7,7 +7,7 @@ server:
   protocol: https
   hostname: sso.gatech.edu
   port: 443
-  path: /
+  path: /cas
   verify: 0
   cert: ''
 gateway:
@@ -19,7 +19,7 @@ gateway:
     pages: '<front>'
   method: client_side
 forced_login:
-  enabled: true
+  enabled: false
   paths:
     id: null
     negate: false

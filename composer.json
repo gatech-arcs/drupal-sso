@@ -2,7 +2,7 @@
     "name": "gtsciences/gt_sso",
     "description": "Drupal recipe for Georgia Tech'sSingle Sign On (CAS)",
     "type": "drupal-recipe",
-    "keywords": ["drupal recipe", "drupal recipes", "recipe", "CAS", "SSO","authentication"],
+    "keywords": ["drupal recipe", "drupal recipes", "recipe", "CAS", "SSO", "authentication"],
     "license": "GPL-2.0-or-later",
     "homepage": "https://cos.gatech.edu/",
     "authors": [
